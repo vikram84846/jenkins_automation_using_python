@@ -9,6 +9,6 @@ RUN  pip3 install flask
 
 COPY app.py  /.
 
-EXPOSE  8080
+EXPOSE  5000
 
 ENTRYPOINT ["python3","app.py"]
